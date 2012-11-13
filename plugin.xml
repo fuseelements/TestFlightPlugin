@@ -5,11 +5,11 @@
 
     <name>TestFlight SDK</name>
 	
-	<engines>
-	    <engine name="cordova" version="2.2.0" />
-	</engines>
+    <engines>
+        <engine name="cordova" version="2.2.0" />
+    </engines>
 	
-	<access origin="*.testflightapp.com" />
+    <access origin="*.testflightapp.com" />
     <asset src="www/testflight.js" target="testflight.js" />
 
     <!-- ios -->
@@ -18,7 +18,7 @@
                     string="CDVTestFlight" />
 
         <!-- Note: the ios src is based off src/ios implicitly --> 
-        <header-file src="TestFlight1.1/TestFlight.h" target-dir="Foo"/>
+        <header-file src="TestFlight1.1/TestFlight.h" />
         <header-file src="CDVTestFlight.h" />
         
         <source-file src="CDVTestFlight.m" />
