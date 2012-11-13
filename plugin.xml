@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    id="com.phonegap.plugins.testflightsdk"
+    version="1.0.0">
+
+    <name>TestFlight SDK</name>
+	
+	<engines>
+	    <engine name="cordova" version="2.2.0" />
+	</engines>
+	
+	<access origin="*.testflightapp.com" />
+    <asset src="www/testflight.js" target="testflight.js" />
+
+    <!-- ios -->
+    <platform name="ios">
+        <plugins-plist key="TestFlightSDK"
+                    string="CDVTestFlight" />
+
+        <!-- Note: the ios src is based off src/ios implicitly --> 
+        <header-file src="TestFlight1.1/TestFlight.h" target-dir="Foo"/>
+        <header-file src="CDVTestFlight.h" />
+        
+        <source-file src="CDVTestFlight.m" />
+        <source-file src="TestFlight1.1/libTestFlight.a" />
+        
+        <framework src="libz.dylib" />
+    </platform>
+</plugin>
