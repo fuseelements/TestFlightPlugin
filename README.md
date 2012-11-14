@@ -11,6 +11,7 @@ Follows the [Cordova Plugin spec](https://github.com/alunny/cordova-plugin-spec)
 3. Add **testflight.js** to your **www** folder, and reference it in a script tag, after your cordova.js
 4. In __Cordova.plist__, under the **'Plugins'** key, add a new row: key is **"TestFlightSDK"** and the value is **"CDVTestFlight"**
 5. In __Cordova.plist__, under the **'ExternalHosts'** key, add a new value **"*.testflightapp.com"**
+6. Add the lib **"libz.dylib"** in your Build Phases tab of your Project
     
 The plugin's JavaScript functions are called after getting the plugin object thus:
  
