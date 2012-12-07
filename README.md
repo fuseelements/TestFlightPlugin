@@ -16,7 +16,7 @@ Follows the [Cordova Plugin spec](https://github.com/alunny/cordova-plugin-spec)
 The plugin's JavaScript functions are called after getting the plugin object thus:
  
         var tf = cordova.require("cordova/plugin/testflightsdk");
-        tf.takeoff(win, fail, "some_team_token");
+        tf.takeOff(win, fail, "some_team_token");
  
 See the functions below (and the TestFlight SDK docs) for usage. Unfortunately all of TestFlight's SDK functions return void,
 and errors can only be gleaned from the run console, so check that for errors.
