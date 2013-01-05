@@ -4,7 +4,7 @@ created by Shazron Abdullah
 
 [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html) except for the TestFlight1.1 SDK that is under **src/ios/TestFlight1.1**
 
-Follows the [Cordova Plugin spec](https://github.com/alunny/cordova-plugin-spec), so that it works with [Pluginstall](https://github.com/alunny/pluginstall), or you can install it manually below.
+Follows the [Cordova Plugin spec](https://github.com/alunny/cordova-plugin-spec), so that it works with [Plugman](https://github.com/imhotep/plugman), or you can install it manually below.
  
 1. Add the TestFlight SDK 1.1 files **(libTestFlight.a, and TestFlight.h)** in Xcode (add as a group)
 2. Add the plugin files **(CDVTestFlight.h, CDVTestFlight.m)** in Xcode (add as a group)
