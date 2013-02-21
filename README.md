@@ -42,7 +42,7 @@ and errors can only be gleaned from the run console, so check that for errors.
          @param failureCallback function
          @param teamToken string
          */
-        tf.takeOff = function(successCallback, failureCallback, 'teamToken');
+        tf.takeOff(successCallback, failureCallback, 'teamToken');
     
         /*
          Sets custom options
