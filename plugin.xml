@@ -29,7 +29,7 @@
         <header-file src="CDVTestFlight.h" />
         
         <source-file src="CDVTestFlight.m" />
-        <source-file src="TestFlight1.1/libTestFlight.a" />
+        <framework src="TestFlight1.1/libTestFlight.a" />
         
         <framework src="libz.dylib" />
     </platform>
