@@ -10,7 +10,7 @@
     </engines>
 	
     <access origin="*.testflightapp.com" />
-    <asset src="www/testflight.js" target="testflight.js" />
+    <asset src="www/testflight.js" target="js/plugins/testflight.js" />
 
     <!-- ios -->
     <platform name="ios">
